@@ -39,6 +39,7 @@ a:hover {
   padding: 10px;
   position: fixed;
   text-align: center;
+  z-index: 999;
   opacity: .9;
 }
 .main-nav li.name {
