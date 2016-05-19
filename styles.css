@@ -112,6 +112,7 @@ header .profile-image:hover {
 
 .card {
   font-size: 18px;
+  font-family: 'Lato', sans-serif;
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
