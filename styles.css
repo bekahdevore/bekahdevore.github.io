@@ -20,8 +20,7 @@ body {
 }
 
 .active {
-  border-bottom: medium solid #f7f5f0;
-  border-radius: 20%;
+  border-bottom: 2px solid #CF6766;
 
 }
 
@@ -30,8 +29,8 @@ body {
 a {
   text-decoration: none;
   color: #CF6766;
-
 }
+
 a:hover {
   color: #CF6766;
 }
@@ -50,11 +49,9 @@ a:hover {
 }
 .main-nav li.name {
   color: #f7f5f0;
-}
-
-.main-nav li.name {
   font-size: 18px;
 }
+
 
 .nav {
   display: flex;
