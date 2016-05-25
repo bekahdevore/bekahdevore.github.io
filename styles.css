@@ -3,12 +3,6 @@
   box-sizing: border-box;
 }
 
-/*
-pink #dd6a72
-blue #6cc0bf
-yellow #e7dd46
-black #222
-*/
   
 body {
   margin: 0;
@@ -24,15 +18,19 @@ body {
 
 }
 
+.social-media li{
+  text-align: left;
+}
+
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: #CF6766;
+  color: #f7f5f0;
 }
 
 a:hover {
-  color: #CF6766;
+  color: #30415D;
 }
 
 /* Section Styles */
@@ -48,7 +46,7 @@ a:hover {
   opacity: .9;
 }
 .main-nav li.name {
-  color: #f7f5f0;
+  color: #8EAEBD;
   font-size: 18px;
 }
 
@@ -87,9 +85,16 @@ header {
   background: url('images/Louisville.jpeg') no-repeat top center;
   background-size: cover;
 }
-.contact-header {
-  background: url('images/coffee.jpeg') no-repeat top center;
-  background-size: cover;
+
+
+.coffee-img{
+  width: 100%;
+  border-radius: 25%;
+  filter: grayscale();
+}
+
+.coffee-card{
+  text-align: center;
 }
 
 header {
@@ -144,7 +149,7 @@ header .profile-image:hover {
 
 ul.skills {
   padding: 0;
-  text-align: center;
+  text-align: left;
 }
 
 .skills li {
@@ -156,9 +161,19 @@ ul.skills {
   margin: 2px;
 }
 
-/*.skills li:nth-child(odd) {
+.skill li a:hover{
+  text:#8EAEBD;
+}
+
+.skills li:nth-child(odd) {
   background:#8EAEBD ;
-}*/
+} 
+
+.skills li:nth-child(odd) a:hover{
+  text: #6cc0bf ;
+} 
+
+
 
 footer {
   width: 100%;
@@ -195,17 +210,16 @@ a.social {
   height: 30px;
   background-size: 30px 30px;
   opacity: .5;
-  filter: invert();
   transition: all .25s;
 }
 a.twitter {
-  background-image: url(images/icon-twitter.svg);
+  background-image: url(images/twitter.svg);
 }
 a.linkedin {
-  background-image: url(images/icon-linkedin.svg);
+  background-image: url(images/linkedin.svg);
 }
 a.github {
-  background-image: url(images/icon-github.png);
+  background-image: url(images/github.svg);
 }
 a.social:hover {
   opacity: 1;
@@ -235,7 +249,6 @@ a.social:hover {
   .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
   }
 
   main {
