@@ -173,10 +173,6 @@ ul.skills {
   text: #6cc0bf ;
 } 
 
-.social {
-  filter: invert();
-}
-
 footer {
   width: 100%;
   min-height: 30px;
@@ -215,6 +211,7 @@ a.social {
   background-size: 40px 40px;
   opacity: .5;
   transition: all .25s;
+  filter: grayscale();
 }
 a.twitter {
   background-image: url(images/twitter.svg);
